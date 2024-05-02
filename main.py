@@ -32,9 +32,6 @@ def text_to_morse(text):
     return Morse_code.strip()
 
 
-# User_input = input("Enter your text :").split() #
-# print("MOrse code ", text_to_morse(User_input))
-
 
 MORSE_TEXT_DICT = {'.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D',
                    '.': 'E', '..-.': 'F', '--.': 'G', '....': 'H',
@@ -60,8 +57,6 @@ def morse_to_text(morse):
     return Text_code.strip()
 
 
-# User_input = input("Enter your morse :").split()
-# print("Text code ", morse_to_text(User_input))
 
 print("1 -  text  to Morse ,\n2 -  Morse To Text ", )
 
